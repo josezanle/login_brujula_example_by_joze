@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "lato";
+}
+
+body,
+html,
+.main__login {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* ------------------------- */
+.main__login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F3F3F3;
+}
+
+.main__login .left,
+.main__login .right {
+    width: 600px;
+    min-height: 830px;
+}
+
+.main__login .left {
+    background-image: url("2.png");
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.main__login .right {
+    background: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------------- */
+.left .content__ {
+    display: flex;
+    flex-flow: column;
+    width: 500px;
+    height: 350px;
+    padding: 2em 0;
+}
+
+.left .content__ .welcome_text {
+    font-size: 34px;
+    font-weight: bold;
+    color: #F4F6F8;
+}
+
+.left .content__ .brujula_text {
+    font-size: 34px;
+    font-weight: bold;
+    color: #F4F6F8;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+.left .content__ .lorem_text {
+    color: #F4F6F8;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+/* ------------------------- */
+.right .content__ {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 2em;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+}
+
+.right .content__ .textLogin {
+    font-size: 25px;
+    color: #001737;
+    margin-bottom: 12.93px;
+    font-weight: bold;
+}
+
+.right .content__ p {
+    display: inline;
+    color: #5A607F;
+    font-size: 12px;
+}
+
+.right .content__ .input {
+    height: 40px;
+    width: 418px;
+    padding: 1em;
+    border: none;
+    outline: none;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    color: #868D96;
+    font-size: 12px;
+}
+
+.right .content__ .button {
+    width: 418px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: #FFFFFF;
+    background: #2B80FF;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.blue {
+    color: #2B80FF;
+    font-size: 12px;
+}
+
+@media (max-width: 1200px) {
+
+    .main__login .left,
+    .main__login .right {
+        width: 50vw;
+        min-height: 100%;
+        padding: 2em;
+    }
+
+
+}
